@@ -9,7 +9,7 @@ var handleRequest = function(request, response) {
  response.write("DevOps Coursework 2! | Running on: ");
  response.write(host);
  response.end(" | v=0\n");
- console.log("Running On:" ,host, "| Total Requests:", ++requests,"| App Uptime:", (new Date() - star))
+ console.log("Running On:" ,host: , "| Total Requests:", ++requests,"| App Uptime:", (new Date() - star))
 }
 
 var www = http.createServer(handleRequest);
